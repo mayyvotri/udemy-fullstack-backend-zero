@@ -1,0 +1,32 @@
+{
+  "name": "fullstack-nodejs",
+  "version": "1.0.0",
+  "description": "PTTP nodejs",
+  "keywords": [
+    "PTTP"
+  ],
+  "homepage": "https://github.com/mayyvotri/udemy-fullstack-backend-zero#readme",
+  "bugs": {
+    "url": "https://github.com/mayyvotri/udemy-fullstack-backend-zero/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayyvotri/udemy-fullstack-backend-zero.git"
+  },
+  "license": "ISC",
+  "author": "Phu",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "ejs": "3.1.8",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  }
+}
